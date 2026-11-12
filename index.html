@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portofolio Alexius Pandoyo Jiman — Web Developer dan lulusan bidang teknologi informasi.">
+  <title>Alexius Pandoyo Jiman | Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav container">
+      <a class="brand" href="#home">AP<span>.</span></a>
+      <button class="menu-toggle" aria-label="Buka menu" aria-expanded="false">☰</button>
+      <div class="nav-links">
+        <a href="#tentang">Tentang</a><a href="#keahlian">Keahlian</a>
+        <a href="#proyek">Proyek</a><a href="#kontak" class="nav-cta">Hubungi Saya</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero container" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="dot"></span> PORTOFOLIO PRIBADI</p>
+        <h1>Halo, saya<br><span>Alexius Pandoyo Jiman.</span></h1>
+        <h2>Web Developer | Information Technology Enthusiast</h2>
+        <p class="intro">Saya tertarik pada pengembangan website dan aplikasi berbasis database. Saya senang mempelajari teknologi baru serta membangun solusi digital yang fungsional dan mudah digunakan.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="#proyek">Lihat Proyek <span>↗</span></a>
+          <a class="button secondary" href="#kontak">Hubungi Saya</a>
+        </div>
+      </div>
+      <div class="hero-art" aria-label="Ilustrasi abstrak pengembangan web">
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+        <div class="code-card">
+          <div class="window-dots"><i></i><i></i><i></i></div>
+          <p class="code-muted">developer.js</p>
+          <pre><span class="purple">const</span> developer = {
+  name: <span class="green">"Alexius"</span>,
+  focus: <span class="green">"Web Development"</span>,
+  passion: <span class="green">"Keep Learning"</span>,
+  status: <span class="orange">"Building"</span>
+};</pre>
+          <div class="code-footer"><span>●</span> Ready to create</div>
+        </div>
+        <div class="float-tag tag-top">✦ Creative problem solver</div>
+        <div class="float-tag tag-bottom">HTML · CSS · PHP · MySQL</div>
+      </div>
+    </section>
+
+    <section class="section about-section" id="tentang">
+      <div class="container about-grid">
+        <div><p class="eyebrow">01 / TENTANG SAYA</p><h2>Membangun ide<br>menjadi <span>solusi digital.</span></h2></div>
+        <div class="about-text">
+          <p>Saya memiliki ketertarikan pada dunia teknologi informasi, khususnya pembuatan website, pengelolaan database, dan pengembangan aplikasi. Dalam mengerjakan proyek, saya berusaha memahami kebutuhan terlebih dahulu, menyusun alur sistem, lalu mengimplementasikannya menjadi aplikasi yang dapat digunakan.</p>
+          <p>Saya terbuka untuk terus belajar, mengembangkan kemampuan, dan mendapatkan pengalaman baru melalui proyek maupun kolaborasi.</p>
+          <div class="quick-facts">
+            <div><strong>Web</strong><span>Development</span></div>
+            <div><strong>Database</strong><span>Management</span></div>
+            <div><strong>Data</strong><span>Classification</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container" id="keahlian">
+      <p class="eyebrow">02 / KEAHLIAN</p>
+      <div class="section-heading"><h2>Tools & <span>Technology</span></h2><p>Teknologi yang pernah digunakan dalam proses belajar dan pengerjaan proyek.</p></div>
+      <div class="skill-grid">
+        <article class="skill-card"><div class="skill-icon">⌘</div><h3>Web Development</h3><p>HTML, CSS, JavaScript, PHP</p></article>
+        <article class="skill-card"><div class="skill-icon">▤</div><h3>Database</h3><p>MySQL, pengelolaan basis data</p></article>
+        <article class="skill-card"><div class="skill-icon">⌁</div><h3>Tools</h3><p>Visual Studio Code, XAMPP, NetBeans</p></article>
+        <article class="skill-card"><div class="skill-icon">◈</div><h3>Data Mining</h3><p>Categorical Naïve Bayes, klasifikasi, evaluasi model</p></article>
+      </div>
+    </section>
+
+    <section class="section projects-section" id="proyek">
+      <div class="container">
+        <p class="eyebrow">03 / PENGALAMAN PROYEK</p>
+        <div class="section-heading"><h2>Beberapa hal yang <span>saya kerjakan.</span></h2><p>Proyek akademik dan pengembangan aplikasi sebagai penerapan keterampilan teknis.</p></div>
+        <div class="project-grid">
+          <article class="project-card project-featured">
+            <div class="project-top"><span class="project-number">01</span><span class="project-type">WEB APPLICATION · DATA MINING</span></div>
+            <div class="project-visual visual-blue"><div class="mini-dashboard"><div class="mini-sidebar"></div><div class="mini-content"><i></i><i></i><i></i><div class="mini-chart"></div></div></div></div>
+            <div class="project-body"><h3>Sistem Klasifikasi Kepuasan Pelanggan Toko Jotun</h3><p>Perancangan website untuk mengelola data kuesioner dan mengklasifikasikan tingkat kepuasan pelanggan menggunakan algoritma Categorical Naïve Bayes. Sistem dirancang dengan fitur data training, data testing, proses prediksi, evaluasi model, grafik, dan laporan.</p><div class="tags"><span>PHP</span><span>MySQL</span><span>HTML/CSS</span><span>Categorical NB</span></div></div>
+          </article>
+          <article class="project-card">
+            <div class="project-top"><span class="project-number">02</span><span class="project-type">DESKTOP APPLICATION</span></div>
+            <div class="project-visual visual-violet"><div class="app-window"><div class="app-bar"></div><div class="app-row"></div><div class="app-row short"></div><div class="app-table"><i></i><i></i><i></i><i></i></div></div></div>
+            <div class="project-body"><h3>Aplikasi Penyewaan Alat Camping</h3><p>Aplikasi pengelolaan penyewaan alat camping dengan fitur tambah, ubah, hapus, dan tampilan data dalam tabel. Proyek menerapkan koneksi database menggunakan JDBC.</p><div class="tags"><span>Java</span><span>NetBeans</span><span>MySQL</span><span>JDBC</span></div></div>
+          </article>
+          <article class="project-card">
+            <div class="project-top"><span class="project-number">03</span><span class="project-type">WEB & DATABASE</span></div>
+            <div class="project-visual visual-orange"><div class="store-visual"><div class="store-roof"></div><div class="store-body"><i></i><i></i><i></i></div></div></div>
+            <div class="project-body"><h3>Rancangan Sistem Informasi Penjualan</h3><p>Konsep aplikasi berbasis web untuk membantu pengelolaan data barang, pelanggan, karyawan, transaksi penjualan dan pembelian, serta penyusunan laporan.</p><div class="tags"><span>PHP</span><span>MySQL</span><span>Database</span></div></div>
+          </article>
+        </div>
+        <p class="project-note">Catatan: deskripsi proyek dapat disesuaikan kembali dengan implementasi akhir dan dokumentasi yang ingin ditampilkan.</p>
+      </div>
+    </section>
+
+    <section class="section container" id="kontak">
+      <div class="contact-panel">
+        <p class="eyebrow">04 / KONTAK</p>
+        <h2>Ada kesempatan atau<br>proyek menarik?</h2>
+        <p>Silakan hubungi saya untuk berdiskusi, berkolaborasi, atau membicarakan peluang kerja.</p>
+        <div class="contact-actions">
+          <a class="button light" href="mailto:EMAIL_ANDA">Kirim Email ↗</a>
+          <a class="button outline-light" href="https://www.linkedin.com/" target="_blank" rel="noopener">LinkedIn ↗</a>
+        </div>
+        <small>Ganti EMAIL_ANDA pada file index.html dengan alamat email aktif Anda.</small>
+      </div>
+    </section>
+  </main>
+  <footer class="footer"><div class="container"><a class="brand" href="#home">AP<span>.</span></a><p>© <span id="year"></span> Alexius Pandoyo Jiman. Dibuat dengan semangat belajar.</p><a href="#home">Kembali ke atas ↑</a></div></footer>
+  <script src="script.js"></script>
+</body>
+</html>
